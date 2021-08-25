@@ -40,10 +40,10 @@ This tool supports Microsoft domains only.
     https://login.microsoftonline.com/YOURDOMAIN/.well-known/openid-configuration
     ```
 
-2. If the answer includes **authorization_endpoint** or similar you should be good to go! For example:
+2. If the answer includes **token_endpoint** or similar you should be good to go! For example:
 
     ```text
-    "authorization_endpoint":"https://login.microsoftonline.com/8e414aee-d6e1-4d13-98c8-d3876cd2b05/oauth2/authorize"
+    "token_endpoint":"https://login.microsoftonline.com/8e414aee-d6e1-4d13-98c8-d3876cd2b05/oauth2/authorize"
     ```
 
 ![orlok -screenshot][img2]
